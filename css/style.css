@@ -1,0 +1,110 @@
+/*4е задание*/
+
+/* .container {
+    width: 500px;
+    background-color: bisque;
+    padding: 5px 0 0 15px;
+}
+
+.container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.line {
+    width: 480px;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+#view, #area {
+    height: 150px;
+    width: 400px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#view {
+    padding: 2px;
+}
+
+#area {
+    display: none;
+    border: 3px solid blue;
+    padding: 0px;
+}
+
+#area:focus {
+    outline: none;
+} */
+
+
+
+
+/*5е задание*/
+
+.table_sort table {
+    border-collapse: separate;
+} 
+
+.table_sort th {
+    color: #000;
+    background: bisque;
+    cursor: pointer;
+}
+
+.table_sort td,
+.table_sort th {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+.table_sort tbody tr {
+    background: bisque;
+}
+
+th.sorted[data-order="1"],
+th.sorted[data-order="-1"] {
+    position: relative;
+}
+
+th.sorted[data-order="1"]::after,
+th.sorted[data-order="-1"]::after {
+    right: 8px;
+    position: absolute;
+}
+
+th.sorted[data-order="-1"]::after {
+    content: "▼"
+}
+
+th.sorted[data-order="1"]::after {
+    content: "▲"
+}
+
+
+
+
+/*6е задание*/
+/* #div_main {
+    z-index:2;
+    position:absolute;
+    top:50px;
+    left:100px;
+    height:12%;
+    width:12%;
+    border:solid 1px #D6D3D6;
+    }
+    #div_img {
+    z-index:1;
+    right:0px;
+    bottom:0px;
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    cursor:se-resize;
+} */
